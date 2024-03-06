@@ -16,6 +16,10 @@ def feelingController():
     return jsonify(response)
 
 
+@application.route('/feeling')
+def hello():
+    return "Hello Geeta APP"
+
 if __name__ == '__main__':
     application.run()
 
